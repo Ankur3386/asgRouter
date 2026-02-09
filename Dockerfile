@@ -3,4 +3,4 @@ WORKDIR /app
 COPY ./package.json ./package.json
 RUN npm i
 COPY . .
-CMD ["node","run","index.js"]
+CMD ["node","run","src/index.js"]
