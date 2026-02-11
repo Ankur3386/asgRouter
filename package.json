@@ -11,6 +11,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@aws-sdk/client-auto-scaling": "^3.987.0",
+    "@aws-sdk/client-ec2": "^3.987.0",
+    "@types/node": "^25.2.3",
+    "dotenv": "^17.2.4",
     "express": "^5.2.1"
   }
 }
